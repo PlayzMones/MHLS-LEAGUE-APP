@@ -1,0 +1,40 @@
+{
+  "001": {
+    "teams" : {
+      "home": {
+        "class": "1A",
+        "teamNo": "1",
+        "score": 0
+      },
+      "away": {
+        "class": "2B",
+        "teamNo": "2",
+        "score": 2
+      }
+    },
+    "date": {
+      "period": "full",
+      "date": "Today"
+    },
+    "group": "E"
+  },
+  "002": {
+    "teams" : {
+      "home": {
+        "class": "1C",
+        "teamNo": "3",
+        "score": 2
+      },
+      "away": {
+        "class": "2D",
+        "teamNo": "4",
+        "score": 3
+      }
+    },
+    "date": {
+      "period": "second",
+      "date": "Today"
+    },
+    "group": "D"
+  }
+}

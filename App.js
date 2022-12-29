@@ -1,20 +1,21 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { StatusBar } from "react-native";
+import { useFonts } from "expo-font";
+
+// Importing Screens
+import MainScreen from "./app/screens/MainScreen";
+import GroupStandings from "./app/screens/GroupStandings";
 
 export default function App() {
-  return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
-  );
-}
+  StatusBar.setBarStyle("light-content");
+  const [loaded] = useFonts({
+    "Montserrat-Light": require("./assets/fonts/Montserrat-Light.ttf"),
+    "Montserrat-Medium": require("./assets/fonts/Montserrat-Medium.ttf"),
+    "Montserrat-SemiBold": require("./assets/fonts/Montserrat-SemiBold.ttf"),
+    "Montserrat-ExtraBold": require("./assets/fonts/Montserrat-ExtraBold.ttf"),
+  });
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
+  if (!loaded) return null;
+
+  return <GroupStandings />;
+}

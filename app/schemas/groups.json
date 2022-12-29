@@ -1,0 +1,82 @@
+{
+  "gpA": {
+    "letter": "A",
+    "teams": {
+      "first": {
+        "class": "3D",
+        "teamNo": "1",
+        "MP-WDL": [2, 1, 1, 0]
+      },
+      "second": {
+        "class": "1B",
+        "teamNo": "1",
+        "MP-WDL": [2, 0, 2, 0]
+      },
+      "third": {
+        "class": "1A",
+        "teamNo": "3",
+        "MP-WDL": [2, 0, 1, 1]
+      }
+    }
+  },
+  "gpB": {
+    "letter": "B",
+    "teams": {
+      "first": {
+        "class": "2B",
+        "teamNo": "1",
+        "MP-WDL": [2, 2, 0, 0]
+      },
+      "second": {
+        "class": "1B",
+        "teamNo": "2",
+        "MP-WDL": [2, 1, 0, 1]
+      },
+      "third": {
+        "class": "3C",
+        "teamNo": "3",
+        "MP-WDL": [2, 0, 0, 2]
+      }
+    }
+  },
+  "gpC": {
+    "letter": "C",
+    "teams": {
+      "first": {
+        "class": "2B",
+        "teamNo": "2",
+        "MP-WDL": [2, 2, 0, 0]
+      },
+      "second": {
+        "class": "1A",
+        "teamNo": "1",
+        "MP-WDL": [2, 1, 0, 1]
+      },
+      "third": {
+        "class": "3C",
+        "teamNo": "4",
+        "MP-WDL": [2, 0, 0, 2]
+      }
+    }
+  },
+  "gpD": {
+    "letter": "D",
+    "teams": {
+      "first": {
+        "class": "1D",
+        "teamNo": "1",
+        "MP-WDL": [2, 1, 1, 0]
+      },
+      "second": {
+        "class": "3C",
+        "teamNo": "2",
+        "MP-WDL": [2, 0, 2, 0]
+      },
+      "third": {
+        "class": "2A",
+        "teamNo": "4",
+        "MP-WDL": [2, 0, 1, 1]
+      }
+    }
+  }
+}
